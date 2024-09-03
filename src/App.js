@@ -7,7 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          HOLLLA <code>src/App.js</code> and save to reload.
+          Hola Compañeros.
+        </p>
+        <p>
+        Actividad integradora. Sprint, el corazón de SCRUM
         </p>
         <a
           className="App-link"
