@@ -50,7 +50,12 @@ body, html {
   white-space: nowrap; /* Evita que los títulos se dividan en dos líneas */
   transition: color 0.3s ease;
 }
+.titulos {
+  text-decoration: none; /* Elimina el subrayado */
+  color: white;
+  transition: color 0.3s ease;
 
+}
 
 .titles-nav h2:hover {
   color: #3b3b3b; /* Cambia de color al pasar el mouse */
