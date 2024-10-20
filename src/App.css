@@ -11,20 +11,18 @@ body, html {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url('./images/law.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  text-align: center;
 }
 
 .header {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between; /* Distribuir espacio entre logo y títulos */
   align-items: center;
-  background-color: #015ca6; 
+  background-color: #0072ce; /* Fondo azul */
   padding: 15px 30px;
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  position: fixed; /* Encabezado fijo en la parte superior */
+  top: 0;
+  z-index: 10; /* Asegura que el encabezado esté por encima del contenido */
 }
 
 .logo-link {
@@ -39,17 +37,23 @@ body, html {
 
 .titles-nav {
   display: flex;
-  gap: 20px; /* Espacio entre los títulos */
+  flex-wrap: wrap; /* Permite que los títulos se acomoden si no hay espacio */
+  gap: 15px;
+  margin-left: 20px; /* Empuja los títulos hacia la izquierda */
+  padding-right: 40px; /* Ajusta espacio desde la derecha */
+  overflow: hidden; /* Evita desbordamientos */
 }
 
 .titles-nav h2 {
   margin: 0;
   cursor: pointer;
+  white-space: nowrap; /* Evita que los títulos se dividan en dos líneas */
   transition: color 0.3s ease;
 }
 
+
 .titles-nav h2:hover {
-  color: #005bb5; /* Cambia de color al pasar el mouse */
+  color: #3b3b3b; /* Cambia de color al pasar el mouse */
 }
 
 .main-content {
@@ -59,11 +63,20 @@ body, html {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el contenido */
   border-radius: 10px;
   max-width: 800px;
-  margin: 50px auto; /* Margen superior e inferior */
-  margin-top: 20px;
+  margin: 80px auto;
+  margin-top: 180px; /* Compensar la altura del encabezado */
+}
+
+.container {
+  background-image: url('./images/law.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+
 }
 
 .btn-link {
@@ -86,4 +99,5 @@ body, html {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
   font-size: 14px;
+  text-align: center;
 }
