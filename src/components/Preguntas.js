@@ -1,6 +1,6 @@
 // src/components/Preguntas.js
 import React, { useState } from 'react';
-import '../style/preguntas.css'; // Asegúrate que la ruta al CSS sea correcta
+import '../style/Preguntas.css'; // Asegúrate que la ruta al CSS sea correcta
 
 const Preguntas = () => {
   const [activeIndex, setActiveIndex] = useState(null);
