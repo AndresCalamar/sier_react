@@ -4,6 +4,7 @@ import img from './images/sier_b.png'; // Logo SIER
 import pdf from './images/procesoAER.pdf'; 
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Preguntas from './components/Preguntas.js';
+import Contactos from './components/Contactos.js';
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
             <Link to="/preguntas" className="titulos">
               <h2>Preguntas frecuentes</h2>
             </Link>
-            <h2>Contacto</h2>
+            <Link to="/contactos" className="titulos">
+              <h2>Contactos</h2>
+            </Link>
           </nav>
         </header>
 
@@ -28,6 +31,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/preguntas" element={<Preguntas />} />
+            <Route path="/contactos" element={<Contactos />} />
           </Routes>
         </main>
 

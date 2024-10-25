@@ -8,7 +8,7 @@
     margin-bottom: 15px;
   }
   
-  .faq-question {
+  .faq-contacto {
     background-color: #003366;
     color: rgb(255, 255, 255);
     border: none;
@@ -20,11 +20,11 @@
     transition: background-color 0.3s;
   }
   
-  .faq-question:hover {
+  .faq-contacto:hover {
     background-color: #0055aa;
   }
   
-  .faq-answer {
+  .faq-medio {
     color: rgb(24, 53, 151);
     padding: 10px;
     background-color: #ffffff;
