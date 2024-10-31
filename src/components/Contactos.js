@@ -8,29 +8,26 @@ const Contactos = () => {
   const contactos = [
 
     {
-      contacto: 'CASTELLANOS POLANCO ESTHER',
-      medio: 'Correo electrónico esther.castellanos@inegi.org.mx' + 'Teléfonos 4491492700, Ext:314614' + 'Dirección Edificio "Parque Héroes"; Acceso',
+      contacto: 'RAYAS RIVERA VIANEY ATZIRI',
+      medio: 'Correo electrónico vianey.rayas@inegi.org.mx' + 'Teléfonos 4491492700, Ext:314614',
     },
     {
-      contacto: '¿Quiénes están obligados a hacer Acta Entrega Recepción?',
-      medio: 'A partir de Jefe de Departamento independientemente si manejas o no recursos.',
+      contacto: 'VELASCO PADILLA FRANCISCO ARMANDO',
+      medio: 'Correo electrónico francisco.velasco@inegi.org.mx' + 'Teléfonos 4491492700, Ext:314623',
     },
     {
-      contacto: '¿Cuál es el primer paso para realizar mi procedimiento de Acta entrega – recepción?',
-      medio: 'Mandar el oficio de invitación al Titular del OIC.',
+      contacto: 'MEDEL GONZALEZ NORA EDITH',
+      medio: 'Correo electrónico nora.medel@inegi.org.mx' + 'Teléfonos 4491492700, Ext:314603',
     },
     {
-      contacto: '¿Quiénes pueden ser testigos?',
-      medio: 'Cualquier persona servidora pública del Instituto que cuente preferentemente con firma electrónica avanzada (e.firma).',
+      contacto: 'MARTINEZ LOPEZ PAULINA ANABEL',
+      medio: 'Correo electrónico paulina.martinez@inegi.org.mx' + 'Teléfonos 4491492700, Ext:314675',
     },
     {
-      contacto: '¿Quién es responsable de hacer el Acta entrega-recepción?',
-      medio: 'La persona servidora pública que deja el cargo y/o la persona que designe el superior jerárquico mediante oficio.',
+      contacto: 'MORENO MARBELLA KIMBERLY',
+      medio: 'Correo electrónico marbella.moreno@inegi.org.mx',
     },
-    {
-      contacto: '¿Cómo firmo digitalmente el acta?',
-      medio: 'Debes contar con la e.firma y la aplicación institucional para firmar los documentos.',
-    },
+    
   ];
 
   const togglePregunta = (index) => {
